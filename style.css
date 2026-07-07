@@ -1,0 +1,150 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  
+}
+.for_bg{
+    position: relative;
+    width: 279.8px;
+    height: 370px;
+    left: 0px;
+    z-index: 1;
+}
+.cludes{
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+}
+header{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    z-index: 3;
+    background-color: #8BB0E7;
+}
+h1{
+    font-family: 'Jersey 25', cursive;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 300;
+}
+.for_logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 210px;
+    top: 0px;
+    z-index: 4;
+}
+.for_text_temp{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 6px;
+    top: 0px;
+    z-index: 6;
+    font-family: 'Jersey 25', cursive;
+    font-size: 65px;
+    color: #EFF4FF;
+}
+.for_tem{
+    position: absolute;
+    width: 130px;
+    height: 165px;
+    left: 125px;
+    top: 60px;
+    z-index: 5;
+    background-color:#8BB0E7;
+    border:7px solid #D0E49C;
+    border-radius: 20px;
+}
+.for_text_temp_details{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 8px;
+    top:50px;
+    z-index: 7;
+    font-family: 'Jersey 25', cursive;
+    font-size: 30px;
+    color: #EFF4FF;
+    font-weight:200;
+}
+.for_search{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 50px;
+    top:310px;
+    z-index: 8;
+    font-family: 'Jersey 25', cursive;
+    font-size:20px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    -webkit-app-region: no-drag;
+}
+.for_search_icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 3px;
+    top: 8px;
+    z-index: 9;
+    cursor: pointer;
+}
+.for_search_btn{
+    position: absolute;
+    width: 40px;
+    height: 43px;
+    left: 210px;
+    top: 311px;
+    z-index: 9;
+    background-color: #36946F;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.for_search_btn:hover{
+    background-color: #125e3c;
+}
+.for_video{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: -55px;
+    top: 0px;
+    z-index: 11;
+}
+.for_place_name{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 15px;
+    top: 250px;
+    z-index: 12;
+    font-family: 'Jersey 25', cursive;
+    font-size: 28px;
+    color: #EFF4FF;
+    font-weight:200;
+    text-align: center;
+}
+.for_place_name{
+    position: absolute;
+    top: 225px;
+    left: 55px;
+    width: 170px;
+    height: 30px;
+    background:#8BB0E7;
+    border: 5px solid #D0E49C ;
+    border-radius: 15px;
+}
